@@ -1,13 +1,10 @@
 <?php
 
 /*
-
 Crafted by kiirin
 
 inspired by :
-
 https://raw.githubusercontent.com/vsec7/Your-Waifu-of-Name
-
 */
 
 
@@ -24,7 +21,7 @@ if(isset($_GET["name"])){
     <title>Waifu <?= $_GET["name"]; ?> <?= $c[0]." ".$c[1]; ?></title>
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta property="og:title" content="Waifu <?= $_GET["y"]; ?> adalah <?= $c[0]." ".$c[1]; ?>" />
+    <meta property="og:title" content="Waifu <?php echo $_GET["name"]." ".$c[0]." ".$c[1]; ?>" />
     <meta property="og:image" content="<?= $c[2]; ?>" />
     <meta property="og:description" content="YourWaifu" />
 
