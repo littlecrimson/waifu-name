@@ -20,7 +20,7 @@ if(isset($_GET["name"])){
 <head>
     <title>Waifu <?= $_GET["name"]; ?> <?= $c[0]." ".$c[1]; ?></title>
 	
-    <meta property="og:title" content="Waifu <?php echo $_GET["name"]." ".$c[0]." ".$c[1]; ?>" />
+    <meta property="og:title" content="Waifu <?= $_GET["name"]." ".$c[0]." ".$c[1]; ?>" />
     <meta property="og:image" content="<?= $c[2]; ?>" />
     <meta property="og:description" content="YourWaifu" />
 
